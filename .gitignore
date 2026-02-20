@@ -1,0 +1,12 @@
+# CMake build directories
+/build/
+/build-*/
+/out/
+/cmake-build-*/
+
+# CMake generated files (just in case of an accidental in-source build)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
