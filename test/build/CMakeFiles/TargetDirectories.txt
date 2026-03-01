@@ -1,3 +1,0 @@
-/home/calvinfetzek/cpp/test/build/CMakeFiles/testApp.dir
-/home/calvinfetzek/cpp/test/build/CMakeFiles/edit_cache.dir
-/home/calvinfetzek/cpp/test/build/CMakeFiles/rebuild_cache.dir
