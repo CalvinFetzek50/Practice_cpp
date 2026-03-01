@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/calvinfetzek/cpp/stdio/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/stdioApp.dir/main.cpp.o -c /home/calvinfetzek/cpp/stdio/main.cpp",
+  "file": "/home/calvinfetzek/cpp/stdio/main.cpp"
+}
+]
