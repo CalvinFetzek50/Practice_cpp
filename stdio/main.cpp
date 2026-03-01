@@ -5,10 +5,13 @@
 int main ()
 {
     // ask the user to enter an integer, wiat for them to input an integer, then tell what 2 times that number is.
-    int num {0};
+    int num1 {0};
+    int num2 {0};
     std::cout << "Enter an integer: ";
-    std::cin >> num;
-    std::cout << "Double that number is " << num * 2 << "\n";
-
+    std::cin >> num1;
+    std::cout << "Enter another integer: ";
+    std::cin >> num2;
+    std::cout << std::to_string(num1) + " + " + std::to_string(num1) +  " is " << num1 + num2 << "\n";
+    std::cout << std::to_string(num1) + " - " + std::to_string(num1) +  " is " << num1 - num2 << "\n";
     return 0;
 }
