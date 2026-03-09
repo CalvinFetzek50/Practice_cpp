@@ -2,8 +2,9 @@
 
 | Date | Folder | Content | 
 |------|--------|---------|
-| 2/20/26 | test | test CMAKE using VSCode. |
-| 3/01/26 | stdio | iostream library. |
-| 3/02/26 | func_basic | basic functions. |
-| 3/03/26 | func_headers | Functions with headers and header guards. |
-| 3/04/26 | func_basic2 | basic function practice using structs. |
+| 2/20/26 | tests               | Working with CMake CTest for unit testing. |
+| 3/01/26 | stdio               | Iostream library. |
+| 3/02/26 | func_basic          | Basic functions. |
+| 3/03/26 | func_headers        | Functions with headers and header guards. |
+| 3/04/26 | func_basic2         | Basic function practice using structs. |
+| 3/09/26 | prj_book_organizer  | Sorting strings.   |

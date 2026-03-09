@@ -21,5 +21,10 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin) #executables
 add_subdirectory(func_basic)
 add_subdirectory(func_basic2)
 add_subdirectory(func_headers)
+add_subdirectory(prj_book_organizer)
 add_subdirectory(stdio)
-add_subdirectory(test)
+
+# CMake CTest
+enable_testing()
+add_subdirectory(tests)
+
