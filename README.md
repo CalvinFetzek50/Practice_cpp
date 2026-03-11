@@ -8,3 +8,4 @@
 | 3/03/26 | func_headers        | Functions with headers and header guards. |
 | 3/04/26 | func_basic2         | Basic function practice using structs. |
 | 3/09/26 | prj_book_organizer  | Sorting strings.   |
+| 3/11/26 | func_dataTypes      | Practice Problem 2 of https://www.learncpp.com/cpp-tutorial/chapter-4-summary-and-quiz/   |

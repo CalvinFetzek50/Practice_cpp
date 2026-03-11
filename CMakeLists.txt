@@ -17,6 +17,16 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # set output directories for all targets
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin) #executables
 
+# Include GTests
+include(FetchContent)
+FetchContent_Declare(
+    googletest
+    URL https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip
+)
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+
+
 # Add subdirectories 
 add_subdirectory(func_basic)
 add_subdirectory(func_basic2)
@@ -27,4 +37,5 @@ add_subdirectory(stdio)
 # CMake CTest
 enable_testing()
 add_subdirectory(tests)
+add_subdirectory(func_dataTypes)
 

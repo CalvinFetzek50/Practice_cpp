@@ -14,6 +14,7 @@ CMAKE: Debug
 #include <cassert>
 #include "booksort.h"
 
+
 int main(int argc, const char **argv){
     std::cout << "Running book_organizer_tests..." << std::endl;
 
