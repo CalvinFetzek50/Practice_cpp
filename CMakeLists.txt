@@ -28,14 +28,16 @@ FetchContent_MakeAvailable(googletest)
 
 
 # Add subdirectories 
+add_subdirectory(tests)
 add_subdirectory(func_basic)
 add_subdirectory(func_basic2)
 add_subdirectory(func_headers)
 add_subdirectory(prj_book_organizer)
 add_subdirectory(stdio)
+add_subdirectory(func_dataTypes)
+add_subdirectory(func_strings)
 
 # CMake CTest
 enable_testing()
-add_subdirectory(tests)
-add_subdirectory(func_dataTypes)
+
 
