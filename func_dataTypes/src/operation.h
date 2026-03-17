@@ -10,4 +10,7 @@ char getOperator(std::istream& in, std::ostream& out);
 // display results on terminal
 double computeResult(double value1, double value2, char UserOperator);
 
+// given two integers as references, sort and return the lower values first
+void sort2(int& x, int& y);
+
 #endif 

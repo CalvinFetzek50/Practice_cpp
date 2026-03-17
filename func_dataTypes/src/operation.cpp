@@ -1,5 +1,6 @@
 #include <iostream>
 #include <limits>
+#include <algorithm>
 #include "operation.h"
 
 double getValue(std::istream& in, std::ostream& out){
@@ -61,4 +62,10 @@ double computeResult(double value1, double value2, char userOperator){
     }
 
     return 1.0;
+}
+
+void sort2(int& x, int& y){
+    if (x > y){
+        std::swap(x,y);
+    }
 }

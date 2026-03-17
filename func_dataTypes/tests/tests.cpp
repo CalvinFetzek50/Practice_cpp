@@ -69,3 +69,14 @@ TEST(CalculatorTest, HandleVariousOperations){
 
 
 }
+
+TEST(swap2Test, HandleTwoOperations){
+    int x {7};
+    int y {5};
+
+    sort2(x,y);
+    EXPECT_EQ(x,5);
+    
+    sort2(x,y);
+    EXPECT_EQ(x,5);
+}

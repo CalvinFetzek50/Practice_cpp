@@ -36,6 +36,7 @@ add_subdirectory(prj_book_organizer)
 add_subdirectory(stdio)
 add_subdirectory(func_dataTypes)
 add_subdirectory(func_strings)
+add_subdirectory(qt_tutorial)
 
 # CMake CTest
 enable_testing()
